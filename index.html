@@ -465,7 +465,9 @@
         };
         </script>
     <script>
-     function Scrolldown() { window.scroll(0,215); }
-     window.onload = Scrolldown;
+        const chapContentDiv = document.querySelector("#chap_content");
+        chapContentDiv.classList.add("p-0")
+        function Scrolldown() { window.scroll(0,190); }
+        window.onload = Scrolldown;
     </script>
 </p>
