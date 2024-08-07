@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+</head>
+<body>
+    <video class="player" style="--plyr-color-main: #FABB14 ; " src="https://teamgraphic.ir/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/FMraJiwH/jhmMi0Rk.mp4"></video>
+    <div class="owl-carousel owl-theme">
+        <img src="folderico-NZUtof.ico" alt="">
+        <img src="https://webzi.ir/static/0.0.1/themes/images/theme54_m.png" alt="">
+    </div>
+</body>
+<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+
+<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.min.js"></script>
+
+<script>
+    var owl = $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:false,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            }
+        }
+    })
+    $('.player').on("play", function (e) {
+        owl.trigger('play.owl.autoplay',[3000]);
+    });
+    $('.player').on("pause", function (e) {
+        owl.trigger('stop.owl.autoplay');
+    });
+</script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+<script>
+    const player = document.querySelectorAll('.player');
+    for(var i=0; i < player.length; i++){
+        new Plyr(player[i],{
+            controls:['play-large', 'play','rewind','fast-forward', 'progress', 'current-time','duration','settings', 'pip', 'airplay', 'fullscreen'],
+            tooltips: 	{ controls: true, seek: true },
+            i18n: {
+                restart: 'بازپخش',
+                rewind: 'برگشت به 10 ثانیه قبل',
+                play: 'پخش',
+                pause: 'مکث',
+                fastForward: 'رفتن به 10 ثانیه بعد',
+                seek: 'Seek',
+                seekLabel: '{currentTime} از {duration}',
+                played: 'درحال پخش',
+                buffered: 'Buffered',
+                currentTime: 'زمان حال',
+                duration: 'زمان',
+                volume: 'صدا',
+                mute: 'بی صدا',
+                unmute: 'با صدا',
+                enableCaptions: 'Enable captions',
+                disableCaptions: 'Disable captions',
+                download: 'Download',
+                enterFullscreen: 'وارد شدن به حالت تمام صفحه',
+                exitFullscreen: 'خارج شدن از حالت تمام صفحه',
+                frameTitle: 'Player for {title}',
+                captions: 'Captions',
+                settings: 'تنظیمات',
+                pip: 'PIP',
+                menuBack: 'Go back to previous menu',
+                speed: 'سرعت',
+                normal: 'عادی',
+                quality: 'کیفیت',
+                loop: 'حلقه',
+                start: 'شروع',
+                end: 'پایان',
+                all: 'همه',
+                reset: 'Reset',
+                disabled: 'غیر فعال',
+                enabled: 'فعال',
+                advertisement: 'Ad',
+                qualityBadge: {
+                2160: '4K',
+                1440: 'HD',
+                1080: 'HD',
+                720: 'HD',
+                576: 'SD',
+                480: 'SD',
+                },
+            }
+        });
+  
+    }
+</script>
+
+</html>

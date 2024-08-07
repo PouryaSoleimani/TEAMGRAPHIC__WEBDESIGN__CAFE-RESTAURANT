@@ -171,8 +171,13 @@
             <div id="SINGLE__TEMPLATE__1" style="direction: ltr;" class="flex flex-col lg:grid grid-cols-3 px-2 py-3 w-full">
                 <!-- * LEFT -->
                 <div id="LEFT" class="col-start-1 col-end-2 h-full p-2">
-                    <div data-fancybox data-caption="سایت  منو کافه و رستوران" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/bnWSvxOk.png">
-                        <img class="rounded-xl shadow-lg overflow-hidden lazy w-full cursor-zoom-in h-full" src="https://team-graphic.com/Infinity-TG.svg" alt="نمونه سایت منو کافه و رستوران-" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/ZRxWa8QH.png" />
+                    <div class="template-carousel owl-carousel">
+                        <div data-fancybox data-caption="سایت  منو کافه و رستوران" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/bnWSvxOk.png">
+                            <img class="rounded-xl shadow-lg overflow-hidden lazy w-full cursor-zoom-in h-full" src="https://team-graphic.com/Infinity-TG.svg" alt="نمونه سایت منو کافه و رستوران-" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/ZRxWa8QH.png" />
+                        </div>
+                        <div data-fancybox data-caption="سایت  منو کافه و رستوران" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/bnWSvxOk.png">
+                            <img class="rounded-xl shadow-lg overflow-hidden lazy w-full cursor-zoom-in h-full" src="https://team-graphic.com/Infinity-TG.svg" alt="نمونه سایت منو کافه و رستوران-" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/ZRxWa8QH.png" />
+                        </div>
                     </div>
                 </div>
                 <!-- * RIGHT -->
@@ -724,5 +729,41 @@
                 window.onload = Scrolldown();
             }
             window.onload = function logger(){console.log(window.innerWidth)}
-        </script>
+    </script>
+    <script>
+        var sliders = document.querySelectorAll('.template-carousel');
+        sliders.forEach((el,i) => {
+            el.classList.add(`template-carousel-id-${i}`)
+            $(`.template-carousel-id-${i}`).owlCarousel({
+                loop:true,
+                margin:10,
+                nav:false,
+                autoplay:false,
+                autoplayTimeout:1000,
+                autoplayHoverPause:false,
+                responsive:{
+                    0:{
+                        items:1
+                    }
+                }
+            })
+        });
+        document.addEventListener('scroll',(event)=>{
+            sliders.forEach((el,i)=>{
+                if(i != sliders.length-2){
+                    if(window.pageYOffset > el.offsetTop*.70 && window.pageYOffset < sliders[i+2].offsetTop*.70){     
+                        $(`.template-carousel-id-${i}`).trigger('play.owl.autoplay',[1000]); 
+                    }else{
+                        $(`.template-carousel-id-${i}`).trigger('stop.owl.autoplay');
+                    }
+                }else{
+                    if(window.pageYOffset > el.offsetTop*.70){
+                        $(`.template-carousel-id-${i}`).trigger('play.owl.autoplay',[1000]); 
+                    }else{
+                        $(`.template-carousel-id-${i}`).trigger('stop.owl.autoplay');
+                    }
+                }
+            })
+        })
+    </script>
 </p>
