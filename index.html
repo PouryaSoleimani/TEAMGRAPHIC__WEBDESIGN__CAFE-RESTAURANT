@@ -758,8 +758,11 @@
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.min.js"></script>
     <script>
-        var sliders = document.querySelectorAll('.template-carousel');
-        sliders.forEach((el,i) => {
+        let SLIDERS = document.querySelectorAll('.template-carousel');
+        console.log(SLIDERS)
+        let SLIDERSARRAY  = Array.from(SLIDERS)
+        console.log(SLIDERSARRAY)
+        SLIDERS.forEach((el,i) => {
             el.classList.add(`template-carousel-id-${i}`)
             $(`.template-carousel-id-${i}`).owlCarousel({
                 loop:true,
@@ -776,7 +779,7 @@
             })
         });
         document.addEventListener('scroll',(event)=>{
-            sliders.forEach((el,i)=>{
+            SLIDERS.forEach((el,i)=>{
                 if(i != sliders.length-2 && i != sliders.length-1){
                     if(window.pageYOffset > el.offsetTop*.70 && window.pageYOffset < sliders[i+2].offsetTop*.70){     
                         $(`.template-carousel-id-${i}`).trigger('play.owl.autoplay',[1000]); 
