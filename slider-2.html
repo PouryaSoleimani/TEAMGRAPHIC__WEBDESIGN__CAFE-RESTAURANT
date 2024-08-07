@@ -44,7 +44,7 @@
     });
     document.addEventListener('scroll',(event)=>{
         sliders.forEach((el,i)=>{
-            if(i != sliders.length-2){
+            if(i != sliders.length-2 && i != sliders.length-1){
                 if(window.pageYOffset > el.offsetTop*.70 && window.pageYOffset < sliders[i+2].offsetTop*.70){     
                     $(`.template-carousel-id-${i}`).trigger('play.owl.autoplay',[1000]); 
                 }else{
