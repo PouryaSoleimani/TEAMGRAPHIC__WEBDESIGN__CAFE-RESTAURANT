@@ -54,21 +54,22 @@
 @media (min-width: 1280px) {.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 7px;}}
 .WEB__DESIGN__CAFE__SHOOTING__STARS { overflow: hidden;z-index: -10;}
 /*! PLANS CONTAINER */
-.WEB__DESIGN__CAFE__PLANSCONTAINER { background-image: url("/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/DFaOSPdI.jpg"); position: relative; height: auto; width: 100vw; background-size: cover; overflow: hidden; transform: translateY(-5rem); -webkit-transform: translateY(-5rem); -moz-transform: translateY(-5rem); -ms-transform: translateY(-5rem); -o-transform: translateY(-5rem); padding-top: 3%; padding-left: 1rem; padding-right: 1rem;}
 @media (min-width: 768px) {.WEB__DESIGN__CAFE__PLANSCONTAINER { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); padding-bottom: 4vh;}}
 @media (min-width: 1024px) { .WEB__DESIGN__CAFE__PLANSCONTAINER { padding-bottom: 6vh;}}
 @media (min-width: 640px) {.WEB__DESIGN__CAFE__PLANSCONTAINER { padding-left: 2.5rem; padding-right: 2.5rem;}}
+@media (min-width: 1024px) {.WEB__DESIGN__CAFE__PLANSCONTAINER__BOXES__CONTAINER { flex-direction: row; row-gap: 2rem; }}
+@media (min-width: 1024px) { .WEB__DESIGN__CAFE__SINGLE__PLAN__BOX {width:400px; }}
+@media (min-width: 640px) { .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER {padding: 1.5rem 2.5rem; }}
+@media (min-width: 640px) { .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER {color: white; padding: 1.5rem;}}
+
+.WEB__DESIGN__CAFE__PLANSCONTAINER { background-image: url("/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/DFaOSPdI.jpg"); position: relative; height: auto; width: 100vw; background-size: cover; overflow: hidden; transform: translateY(-5rem); -webkit-transform: translateY(-5rem); -moz-transform: translateY(-5rem); -ms-transform: translateY(-5rem); -o-transform: translateY(-5rem); padding-top: 3%; padding-left: 1rem; padding-right: 1rem;}
 .WEB__DESIGN__CAFE__PLANSCONTAINER__HEADER__TEXT {font-size: 2rem;line-height: 2.25rem;color: white;text-align: center;padding: 0 2rem;}
 .WEB__DESIGN__CAFE__PLANSCONTAINER__BOXES__CONTAINER {display: flex;flex-direction: column;align-items: center;justify-content: center;row-gap: 2.5rem;padding: 1rem 0;}
-@media (min-width: 1024px) {.WEB__DESIGN__CAFE__PLANSCONTAINER__BOXES__CONTAINER { flex-direction: row; row-gap: 2rem; }}
 .WEB__DESIGN__CAFE__SINGLE__PLAN__BOX{ cursor: pointer; background-color: rgba(255, 255, 255, 0.205); backdrop-filter: blur(6px); border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; width: 80vw; height: inherit; display: flex; flex-direction:column; align-items:center; justify-content:center; padding: 1rem 0 1rem 4rem; transition: all 300ms linear ; -webkit-transition: all 0.3s linear ; -moz-transition: all 300ms linear ; -ms-transition: all 300ms linear ; -o-transition: all 300ms linear ; }
 .WEB__DESIGN__CAFE__SINGLE__PLAN__BOX:hover{scale: 105%;} 
-@media (min-width: 1024px) { .WEB__DESIGN__CAFE__SINGLE__PLAN__BOX {width:400px; }}
 .WEB__DESIGN__CAFE__SINGLE__PLANBOX__HEADER{color: white;font-size: 1.5rem;line-height: 2rem;font-weight: 600;text-align:center; padding: 0 1.5rem; letter-spacing: -0.05em;} 
 .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER{color: white; padding: 1.5rem ;}
-@media (min-width: 640px) { .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER {padding: 1.5rem 2.5rem; }}
 .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER p { display: flex; column-gap: .5rem; align-items: center;}
-.WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER p img {width:1rem;height:1rem;}
+.WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER > p > img {width:1rem;height:1rem;}
 .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER { width: 100%; margin-top: 4%; display: flex; flex-direction: column-reverse; color: black;}
-@media (min-width: 640px) { .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER {color: white; padding: 1.5rem;}}
 .footerNamad img {margin: auto;}
