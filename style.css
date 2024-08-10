@@ -72,3 +72,6 @@
 .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER {width: 100%; margin-top: 4%; display: flex; flex-direction: column-reverse; color: black;}
 @media (min-width: 640px) { .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER {color: white; padding: 1.5rem;}}
 .footerNamad img {margin: auto;}
+.WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER div { display: flex; flex-direction: column; padding: 1.5rem .75rem; align-items: center; justify-content: center; transition:all 500ms linear ; -webkit-transition:all 500ms linear ; -moz-transition:all 500ms linear ; -ms-transition:all 500ms linear ; -o-transition:all 500ms linear ; cursor: pointer; }
+.WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER div:hover{scale: 110%;}
+@media (min-width: 640px) { .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER div {margin: .75rem 0;}}
