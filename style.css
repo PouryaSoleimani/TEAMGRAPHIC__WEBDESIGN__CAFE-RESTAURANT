@@ -70,5 +70,5 @@
 .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER p { display: flex; column-gap: .5rem; align-items: center;}
 .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER p img {width:1rem;height:1rem;}
 .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER {width: 100%; margin-top: 4%; display: flex; flex-direction: column-reverse; color: black;}
-
 @media (min-width: 640px) { .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER {color: white; padding: 1.5rem;}}
+.footerNamad img {margin: auto;}
