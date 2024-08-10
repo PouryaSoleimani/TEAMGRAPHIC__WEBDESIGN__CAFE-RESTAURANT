@@ -21,4 +21,4 @@
 .WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE { width: 100vw; height: 100vh; position: absolute; bottom: 79px; left: 0; transform: translateX(50%); -webkit-transform: translateX(50%); -moz-transform: translateX(50%); -ms-transform: translateX(50%); -o-transform: translateX(50%);}
 @media (min-width: 768px) { .WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {   width: 100vw;   height: 100vh;   position: absolute;   bottom: 0vh;   left: 0; }}
 @media (min-width: 1280px) { .WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE { width: 100vw; height: 100vh; position: absolute; bottom: 0vh; left: 7px; }}
-.WEB__DESIGN__SHOOTING__STARS{overflow: hidden; z-index: -10;}
+.WEB__DESIGN__CAFE__SHOOTING__STARS{overflow: hidden; z-index: -10;}
