@@ -1,3 +1,17 @@
-#CAFE__ALL__TEMPLATES__CONTAINER .plyr--full-ui { border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px;}
-#CAFE__ALL__TEMPLATES__CONTAINER > div > div:nth-child(1) img{ height: 329px; width: auto; float: right;}
-#CAFE__ALL__TEMPLATES__CONTAINER > div > div:nth-child(2) img{ height: 329px; width: auto; float: left;}
+#CAFE__ALL__TEMPLATES__CONTAINER .plyr--full-ui {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+#CAFE__ALL__TEMPLATES__CONTAINER > div > div:nth-child(1) img {
+  height: 329px;
+  width: auto;
+  float: right;
+}
+#CAFE__ALL__TEMPLATES__CONTAINER > div > div:nth-child(2) img {
+  height: 329px;
+  width: auto;
+  float: left;
+}
