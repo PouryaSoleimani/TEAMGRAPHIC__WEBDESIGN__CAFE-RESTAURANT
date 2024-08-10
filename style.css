@@ -1,59 +1,14 @@
-#CAFE__ALL__TEMPLATES__CONTAINER .plyr--full-ui {
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-}
-#CAFE__ALL__TEMPLATES__CONTAINER > div > div:nth-child(1) img {
-  height: 329px;
-  width: auto;
-  float: right;
-}
-#CAFE__ALL__TEMPLATES__CONTAINER > div > div:nth-child(2) img {
-  height: 329px;
-  width: auto;
-  float: left;
-}
-/* ^  WEB DESIGN CSS */
-.WEB__DESIGN__MAIN__CONTAINER {
-  overflow: hidden;
-  width: 100vw;
-}
-.WEB__DESIGN__CAFE__HEADER__CONTAINER {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-image: "/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/0LrOT4Kp/Uge6Tq2A/8ygW7Ehu.png";
-  background-size: cover;
-  background-position: center;
-  z-index: 0;
-}
-.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  bottom: 79px;
-  left: 0;
-  transform: translateX(50%);
-  -webkit-transform: translateX(50%);
-  -moz-transform: translateX(50%);
-  -ms-transform: translateX(50%);
-  -o-transform: translateX(50%);
-}
-@media (min-width: 768px) {
-  .WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    bottom: 0vh;
-    left: 0;
-  }
-}
-@media (min-width: 1280px) {.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 7px;}}
+#CAFE__ALL__TEMPLATES__CONTAINER .plyr--full-ui {border-radius: 30px;-webkit-border-radius: 30px;-moz-border-radius: 30px;-ms-border-radius: 30px;-o-border-radius: 30px;}
+#CAFE__ALL__TEMPLATES__CONTAINER > div > div:nth-child(1) img { height: 329px; width: auto; float: right;}
+#CAFE__ALL__TEMPLATES__CONTAINER > div > div:nth-child(2) img {height: 329px;width: auto;float: left;}
+/* ^  WEB DESIGN CSS **************************************************************************************************************************************************************/
+.WEB__DESIGN__MAIN__CONTAINER { overflow: hidden; width: 100vw;}
+.WEB__DESIGN__CAFE__HEADER__CONTAINER {position: relative;width: 100vw;height: 100vh;overflow: hidden;background-image: "/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/0LrOT4Kp/Uge6Tq2A/8ygW7Ehu.png";background-size: cover;background-position: center;z-index: 0;}
+.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE { width: 100vw; height: 100vh; position: absolute; bottom: 79px; left: 0; transform: translateX(50%); -webkit-transform: translateX(50%); -moz-transform: translateX(50%); -ms-transform: translateX(50%); -o-transform: translateX(50%);}
 .WEB__DESIGN__CAFE__SHOOTING__STARS { overflow: hidden;z-index: -10;}
-/*! PLANS CONTAINER */
+/*! PLANS CONTAINER *************************************************************************************************************************************************************/
+@media (min-width: 768px) { .WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 0; }}
+@media (min-width: 1280px) {.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 7px;}}
 @media (min-width: 768px) {.WEB__DESIGN__CAFE__PLANSCONTAINER { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); padding-bottom: 4vh;}}
 @media (min-width: 1024px) { .WEB__DESIGN__CAFE__PLANSCONTAINER { padding-bottom: 6vh;}}
 @media (min-width: 640px) {.WEB__DESIGN__CAFE__PLANSCONTAINER { padding-left: 2.5rem; padding-right: 2.5rem;}}
