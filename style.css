@@ -67,8 +67,5 @@
 .WEB__DESIGN__CAFE__SINGLE__PLANBOX__HEADER{color: white;font-size: 1.5rem;line-height: 2rem;font-weight: 600;text-align:center; padding: 0 1.5rem; letter-spacing: -0.05em;} 
 .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER{color: white; padding: 1.5rem ;}
 @media (min-width: 640px) { .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER {padding: 1.5rem 2.5rem; }}
-.WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER p {
-  display: flex;
-  column-gap: .5rem;
-  align-items: center;
-}
+.WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER p { display: flex; column-gap: .5rem; align-items: center;}
+.WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER p img {width:1rem;height:1rem;}
