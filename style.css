@@ -69,3 +69,7 @@
 @media (min-width: 768px) {.WEB__DESIGN__CAFE__PLANSCONTAINER {transform: translateY(0);-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);padding-bottom: 4vh;}}
 @media (min-width: 1024px) {.WEB__DESIGN__CAFE__PLANSCONTAINER {padding-bottom: 6vh;}}
 @media (min-width: 640px) {.WEB__DESIGN__CAFE__PLANSCONTAINER {padding-left: 2.5rem;padding-right: 2.5rem;}}
+.WEB__DESIGN__CAFE__PLANSCONTAINER__HEADER__TEXT{font-size: 2rem;line-height: 2.25rem ; color: white; text-align: center; padding: 0 2rem; } 
+.WEB__DESIGN__CAFE__PLANSCONTAINER__BOXES__CONTAINER {display: flex ; flex-direction: column; align-items: center; justify-content: center; row-gap: 2.5rem; padding: 1rem 0; }
+@media (min-width: 1024px) {.WEB__DESIGN__CAFE__PLANSCONTAINER__BOXES__CONTAINER {flex-direction: row; row-gap: 2rem;}}
+.WEB__DESIGN__CAFE__SINGLE__PLAN__BOX{}
