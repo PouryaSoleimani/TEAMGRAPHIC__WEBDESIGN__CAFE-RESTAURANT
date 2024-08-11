@@ -1,10 +1,10 @@
 /* ^  WEB DESIGN CSS **************************************************************************************************************************************************************/
-/*! HEADER */
+/*! HEADER SECTION */
 .WEB__DESIGN__MAIN__CONTAINER { overflow: hidden; width: 100vw;}
 .WEB__DESIGN__CAFE__HEADER__CONTAINER {position: relative;width: 100vw;height: 100vh;overflow: hidden;background-image: "/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/0LrOT4Kp/Uge6Tq2A/8ygW7Ehu.png";background-size: cover;background-position: center;z-index: 0;}
 .WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE { width: 100vw; height: 100vh; position: absolute; bottom: 79px; left: 0; transform: translateX(50%); -webkit-transform: translateX(50%); -moz-transform: translateX(50%); -ms-transform: translateX(50%); -o-transform: translateX(50%);}
 .WEB__DESIGN__CAFE__SHOOTING__STARS { overflow: hidden;z-index: -10;}
-/*! PLANS */
+/*! PLANS SECTION */
 .WEB__DESIGN__CAFE__PLANSCONTAINER { background-image: url("/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/DFaOSPdI.jpg"); position: relative; height: auto; width: 100vw; background-size: cover; overflow: hidden; transform: translateY(-5rem); -webkit-transform: translateY(-5rem); -moz-transform: translateY(-5rem); -ms-transform: translateY(-5rem); -o-transform: translateY(-5rem); padding-top: 3%; padding-left: 1rem; padding-right: 1rem;}
 .WEB__DESIGN__CAFE__PLANSCONTAINER__HEADER__TEXT {font-size: 2rem;line-height: 2.25rem;color: white;text-align: center;padding: 0 2rem;}
 .WEB__DESIGN__CAFE__PLANSCONTAINER__BOXES__CONTAINER {display: flex;flex-direction: column;align-items: center;justify-content: center;row-gap: 2.5rem;padding: 1rem 0;}
@@ -16,7 +16,7 @@
 .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER > p > img {width:1rem;height:1rem;}
 .PLANS__CATEGORY__SINGLE__BOX{display: flex;flex-direction: column;align-items: center;justify-content: center;transition:all .5s linear ;cursor: pointer;margin: 0.75rem 0;padding: 1.5rem .75rem;-webkit-transition:all .5s linear ;-moz-transition:all .5s linear ;-ms-transition:all .5s linear ;-o-transition:all .5s linear ;}
 .footerNamad img {margin: auto;}
-/*! CATEGORIES */
+/*! CATEGORIES SECTION */
 .CATEGORIES__CONTAINER{ width: 100%; height: fit-content; padding-bottom: 4rem; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: white; color: black; padding-left:5% ; padding-right: 5%;}
 .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER { width: 100%; margin-top: 4%; display: flex; flex-direction: column-reverse; color: black;}
 .CATEGORY__SINGLE__BOX { display: flex;flex-direction: column-reverse;justify-content: start;align-items: center;row-gap:1.5rem ;text-align: center;height: 100%;padding-top: 2.5rem;padding-bottom: 2.5rem;}
@@ -25,6 +25,17 @@
 .CATEGORY__SINGLE__BOX__DESC{font-size: 1.25rem; line-height: 2.5rem; text-align: justify; letter-spacing: -0.05rem;}
 .CATEGORY__OPTIONS__CONTAINER{ display: flex; flex-direction: column; align-items: start; justify-content: center; margin-top: 1rem; margin-bottom: 1rem; width: 100%; margin-top: 1rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
 .CATEGORY__SINGLE__ITEM{ display: flex; align-items: center; justify-content: center; column-gap: 0.25rem;font-size: 18px;line-height: 1.75rem; font-weight: 700;}
+/* ! ALL TEMPLATES SECTION */
+
+
+
+
+
+
+
+
+
+
 
 
 /** RESPONSIVE **/
