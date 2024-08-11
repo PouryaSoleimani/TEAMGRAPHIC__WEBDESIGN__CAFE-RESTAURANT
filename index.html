@@ -89,19 +89,19 @@
             <div class="WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER w-full mt-[4%] px-4 sm:p-6 flex flex-col-reverse sm:text-black lg:text-white sm:gap-x-4 sm:grid-cols-3 lg:flex items-center justify-center sm:flex-row-reverse flex-wrap gap-x-6 lg:gap-x-[6rem] sm:gap-y-4" data-aos="zoom-in-up" data-aos-duration="1500">
                 <!--! 3 BOXES -->
                 <div class="PLANS__CATEGORY__SINGLE__BOX flex flex-col space-y-3 sm:space-y-6 px-3 py-6 items-center justify-center hover:scale-110 duration-500 cursor-pointer">
-                    <div class="card flex flex-col items-center justify-center animate-bounce">
+                    <div class="card flex flex-col items-center justify-center animate-[pulse_3s_linear_infinite]">
                         <div class="card-info"><img class="w-24 h-24 bg-transparent" src="../../../upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/kigsHPzB/XD3uMO8A.svg" /></div>
                     </div>
                     <h3 class="text-lg sm:text-2xl font-semibold text-black sm:text-white tracking-tighter text-center">سایت فروشگاهی</h3>
                 </div>
                 <div class="PLANS__CATEGORY__SINGLE__BOX flex flex-col space-y-3 sm:space-y-6 px-3 py-6 items-center justify-center hover:scale-110 duration-500 cursor-pointer">
-                    <div class="card flex flex-col items-center justify-center animate-[bounce_3s_linear_infinite]">
+                    <div class="card flex flex-col items-center justify-center animate-[pulse_3s_linear_infinite]">
                         <div class="card-info"><img class="w-24 h-24 bg-transparent" src="../../../upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/kigsHPzB/z0RgoZec.svg" /></div>
                     </div>
                     <h3 class="text-lg sm:text-2xl font-semibold text-white tracking-tighter text-center">سایت شرکتی</h3>
                 </div>
                 <div class="PLANS__CATEGORY__SINGLE__BOX flex flex-col space-y-3 sm:space-y-6 px-3 py-6 items-center justify-center hover:scale-110 duration-500 cursor-pointer">
-                    <div class="card flex flex-col items-center justify-center animate-bounce">
+                    <div class="card flex flex-col items-center justify-center animate-[pulse_3s_linear_infinite] ">
                         <div class="card-info"><img class="w-24 h-24 bg-transparent" src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/0LrOT4Kp/THi3DrpB/WNIcJbvo.svg" /></div>
                     </div>
                     <h3 class="text-lg sm:text-2xl font-semibold text-white tracking-tighter text-center">صفحه اصلی </h3>
@@ -146,7 +146,10 @@
             <div id="SINGLE__TEMPLATE__1" style="direction: ltr;" class="SINGLE__TEMPLATE__1 flex flex-col lg:grid grid-cols-3 py-10 w-full gap-x-1 place-items-end">
                 <!-- * LEFT -->
                 <div id="LEFT" class="col-start-1 col-end-2 h-full p-1 rounded-[20px]">
-                    <div data-fancybox data-caption="سایت  منو کافه و رستوران" class="" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/bnWSvxOk.png">
+                    <div data-fancybox="gallery-a" data-caption="سایت  منو کافه و رستوران" class="" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/bnWSvxOk.png">
+                        <img class="rounded-[1.25rem] shadow-lg shadow-zinc-300 overflow-hidden lazy w-screen lg:w-full cursor-zoom-in" src="https://team-graphic.com/Infinity-TG.svg" alt="نمونه سایت منو کافه و رستوران-" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/ZRxWa8QH.png" />
+                    </div>
+                    <div class="hidden" data-fancybox="gallery-a" data-caption="سایت  منو کافه و رستوران" class="" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/bnWSvxOk.png">
                         <img class="rounded-[1.25rem] shadow-lg shadow-zinc-300 overflow-hidden lazy w-screen lg:w-full cursor-zoom-in" src="https://team-graphic.com/Infinity-TG.svg" alt="نمونه سایت منو کافه و رستوران-" data-src="/upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/A3MPNVeW/0Gq8U7h3/GOjyPQTh/ZRxWa8QH.png" />
                     </div>
                 </div>
@@ -665,8 +668,10 @@
     <script>
             const chapContentDiv = document.querySelector("#chap_content");
             const pageLabel = document.querySelector(".label-persian")
+            const sectionMainHeader = document.querySelector(".section-main-header")
             chapContentDiv.classList.add("p-0")
-            pageLabel.classList.add("whitespace-nowrap" ,"pt-20")
+            pageLabel.classList.add("whitespace-nowrap")
+            sectionMainHeader.classList.add("mt-16")
             //SCROLL DOWN
             function Scrolldown(){window.scroll(0,180);}
             function Scrolldown2(){window.scroll(0,237);}
