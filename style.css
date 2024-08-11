@@ -24,8 +24,8 @@
 .CATEGORY__SINGLE__BOX__CONTAINER{ width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 0;}
 .CATEGORY__SINGLE__BOX__TITLE{ font-size: 30px; line-height: 2.25rem; font-weight: 700; transform:translateY(-2rem) ; -webkit-transform:translateY(-2rem) ; -moz-transform:translateY(-2rem) ; -ms-transform:translateY(-2rem) ; -o-transform:translateY(-2rem) ; }
 .CATEGORY__SINGLE__BOX__DESC{font-size: 1.25rem; line-height: 2.5rem; text-align: justify; letter-spacing: -0.05rem;}
-.CATEGORY_OPTIONS__CONTAINER{ display: flex; flex-direction: column; align-items: start; justify-content: center; margin-top: 1rem; margin-bottom: 1rem; width: 100%; margin-top: 1rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
-@media (min-width:640px){}
+.CATEGORY__OPTIONS__CONTAINER{ display: flex; flex-direction: column; align-items: start; justify-content: center; margin-top: 1rem; margin-bottom: 1rem; width: 100%; margin-top: 1rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
+
 
 
 /** RESPONSIVE **/
@@ -43,3 +43,5 @@
 @media (min-width:1280px){.CATEGORY__SINGLE__BOX { flex-direction:row-reverse;padding-top:0.5rem;padding-bottom:0.5rem; margin-top: 80px;}}
 @media (min-width:1280px){.CATEGORY__SINGLE__BOX__TITLE{ padding-left: 2.5rem ; padding-right: 2.5rem; transform:translateY(-4rem) ; -webkit-transform:translateY(-4rem) ; -moz-transform:translateY(-4rem) ; -ms-transform:translateY(-4rem) ; -o-transform:translateY(-4rem) ; }}
 @media (min-width:1280px){.CATEGORIES__SINGLE__BOX__DESC{ padding-left: 2.5rem; padding-right: 2.5rem; letter-spacing: normal; transform:translateY(-1.5rem) ; -webkit-transform:translateY(-1.5rem) ; -moz-transform:translateY(-1.5rem) ; -ms-transform:translateY(-1.5rem) ; -o-transform:translateY(-1.5rem) ; }}
+@media (min-width:640px){.CATEGORY__OPTIONS__CONTAINER{display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); place-items: start}}
+@media (min-width:1280px){.CATEGORY__OPTIONS__CONTAINER{padding-right: 2.5rem;padding-top:0.25rem;padding-bottom: 0.25rem;}}
