@@ -32,9 +32,6 @@
 .SINGLE__TEMPLATE__2{ display: flex; flex-direction: column; padding: 2.5rem 0.5rem; column-gap: .25rem;background-color: #d4d4d8; padding-top: 0.5rem;padding-bottom: 0.5rem; }
 
 
-
-
-
 /** RESPONSIVE **/
 @media (min-width: 768px) { .WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 0; }}
 @media (min-width: 1280px) {.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 7px;}}
