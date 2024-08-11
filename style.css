@@ -28,16 +28,6 @@
 /* ! ALL TEMPLATES SECTION */
 .CAFE__ALL__TEMPLATES__CONTAINER{padding-bottom:4rem;margin-top:5rem;margin-bottom:5rem;}
 .TEMPLATES__TEMPLATE__GROUP{display: flex;flex-direction: column;align-items: center; justify-content: center; margin-top: 4rem;margin-bottom: 4rem;padding-left: 0.5rem;padding-right: 0.5rem;}
-
-
-
-
-
-
-
-
-
-
 /** RESPONSIVE **/
 @media (min-width: 768px) { .WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 0; }}
 @media (min-width: 1280px) {.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 7px;}}
