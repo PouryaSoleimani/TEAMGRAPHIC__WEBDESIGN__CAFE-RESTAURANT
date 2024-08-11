@@ -26,7 +26,7 @@
 .CATEGORY__OPTIONS__CONTAINER{ display: flex; flex-direction: column; align-items: start; justify-content: center; margin-top: 1rem; margin-bottom: 1rem; width: 100%; margin-top: 1rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
 .CATEGORY__SINGLE__ITEM{ display: flex; align-items: center; justify-content: center; column-gap: 0.25rem;font-size: 18px;line-height: 1.75rem; font-weight: 700;}
 /* ! ALL TEMPLATES SECTION */
-
+.CAFE__ALL__TEMPLATES__CONTAINER{padding-bottom:4rem;margin-top:5rem;margin-bottom:5rem;}
 
 
 
@@ -56,3 +56,4 @@
 @media (min-width:640px){.CATEGORY__OPTIONS__CONTAINER{display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); place-items: start}}
 @media (min-width:1280px){.CATEGORY__OPTIONS__CONTAINER{padding-right: 2.5rem;padding-top:0.25rem;padding-bottom: 0.25rem;}}
 @media (min-width:1280px){.CATEGORY__SINGLE__ITEM{font-size:20px;line-height:1.75rem;}}
+@media (min-width:1280px){.CAFE__ALL__TEMPLATES__CONTAINER { padding-left: 2.5rem; padding-right: 2.5rem;}}
