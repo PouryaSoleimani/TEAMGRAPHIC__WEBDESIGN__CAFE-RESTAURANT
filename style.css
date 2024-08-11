@@ -17,9 +17,9 @@
 .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER > p > img {width:1rem;height:1rem;}
 .footerNamad img {margin: auto;}
 /*! CATEGORIES */
+.CATEGORIES__CONTAINER{ width: 100%; height: fit-content; padding-bottom: 4rem; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: white; color: black; padding-left:5% ; padding-right: 5%;}
 .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER { width: 100%; margin-top: 4%; display: flex; flex-direction: column-reverse; color: black;}
 .CATEGORY__SINGLE__BOX{display: flex;flex-direction: column;align-items: center;justify-content: center;transition:all .5s linear ;cursor: pointer;margin: 0.75rem 0;padding: 1.5rem .75rem;-webkit-transition:all .5s linear ;-moz-transition:all .5s linear ;-ms-transition:all .5s linear ;-o-transition:all .5s linear ;}
-.CATEGORIES__CONTAINER{ width: 100%; height: fit-content; padding-bottom: 4rem; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: white; color: black; padding-left:5% ; padding-right: 5%;}
 
 
 /** RESPONSIVE **/
