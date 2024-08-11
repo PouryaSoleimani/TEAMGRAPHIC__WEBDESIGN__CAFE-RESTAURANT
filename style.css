@@ -1,4 +1,3 @@
-#CAFE__ALL__TEMPLATES__CONTAINER .plyr--full-ui {border-radius: 30px;-webkit-border-radius: 30px;-moz-border-radius: 30px;-ms-border-radius: 30px;-o-border-radius: 30px;}
 /* ^  WEB DESIGN CSS **************************************************************************************************************************************************************/
 /*! HEADER */
 .WEB__DESIGN__MAIN__CONTAINER { overflow: hidden; width: 100vw;}
@@ -25,7 +24,7 @@
 .CATEGORY__SINGLE__BOX__TITLE{ font-size: 30px; line-height: 2.25rem; font-weight: 700; transform:translateY(-2rem) ; -webkit-transform:translateY(-2rem) ; -moz-transform:translateY(-2rem) ; -ms-transform:translateY(-2rem) ; -o-transform:translateY(-2rem) ; }
 .CATEGORY__SINGLE__BOX__DESC{font-size: 1.25rem; line-height: 2.5rem; text-align: justify; letter-spacing: -0.05rem;}
 .CATEGORY__OPTIONS__CONTAINER{ display: flex; flex-direction: column; align-items: start; justify-content: center; margin-top: 1rem; margin-bottom: 1rem; width: 100%; margin-top: 1rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
-
+.CATEGORY__SINGLE__ITEM{ display: flex; align-items: center; justify-content: center; column-gap: 0.25rem;font-size: 18px;line-height: 1.75rem; font-weight: 700;}
 
 
 /** RESPONSIVE **/
@@ -45,3 +44,4 @@
 @media (min-width:1280px){.CATEGORIES__SINGLE__BOX__DESC{ padding-left: 2.5rem; padding-right: 2.5rem; letter-spacing: normal; transform:translateY(-1.5rem) ; -webkit-transform:translateY(-1.5rem) ; -moz-transform:translateY(-1.5rem) ; -ms-transform:translateY(-1.5rem) ; -o-transform:translateY(-1.5rem) ; }}
 @media (min-width:640px){.CATEGORY__OPTIONS__CONTAINER{display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); place-items: start}}
 @media (min-width:1280px){.CATEGORY__OPTIONS__CONTAINER{padding-right: 2.5rem;padding-top:0.25rem;padding-bottom: 0.25rem;}}
+@media (min-width:1280px){.CATEGORY__SINGLE__ITEM{font-size:20px;line-height:1.75rem;}}
