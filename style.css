@@ -20,6 +20,12 @@
 /*! CATEGORIES */
 .CATEGORIES__CONTAINER{ width: 100%; height: fit-content; padding-bottom: 4rem; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: white; color: black; padding-left:5% ; padding-right: 5%;}
 .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER { width: 100%; margin-top: 4%; display: flex; flex-direction: column-reverse; color: black;}
+.CATEGORY__SINGLE__BOX { display: flex;flex-direction: column-reverse;justify-content: start;align-items: center;row-gap:1.5rem ;text-align: center;height: 100%;padding-top: 2.5rem;padding-bottom: 2.5rem;}
+.CATEGORY__SINGLE__BOX__CONTAINER{ width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 0;}
+.CATEGORY__SINGLE__BOX__TITLE{ font-size: 30px; line-height: 2.25rem; font-weight: 700; transform:translateY(-2rem) ; -webkit-transform:translateY(-2rem) ; -moz-transform:translateY(-2rem) ; -ms-transform:translateY(-2rem) ; -o-transform:translateY(-2rem) ; }
+.CATEGORY__SINGLE__BOX__DESC{font-size: 1.25rem; line-height: 2.5rem; text-align: justify; letter-spacing: -0.05rem;}
+
+
 
 
 /** RESPONSIVE **/
@@ -33,4 +39,7 @@
 @media (min-width: 640px) { .WEB__DESIGN__CAFE__SINGLE__PLANBOX__OPTIONS__CONTAINER {padding: 1.5rem 2.5rem; }}
 @media (min-width: 640px) { .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER {color: white; padding: 1.5rem;}}
 @media (min-width:640px) {.CATEGORY__SINGLE__BOX { margin: 1.5rem 0;}}
-@media (min-widht:1024px) {.CATEGORIES__CONTAINER { row-gap: 2.5rem;}}
+@media (min-width:1024px) {.CATEGORIES__CONTAINER { row-gap: 2.5rem;}}
+@media (min-width:1280px){.CATEGORY__SINGLE__BOX { flex-direction:row-reverse;padding-top:0.5rem;padding-bottom:0.5rem; margin-top: 80px;}}
+@media (min-width:1280px){.CATEGORY__SINGLE__BOX__TITLE{ padding-left: 2.5rem ; padding-right: 2.5rem; transform:translateY(-4rem) ; -webkit-transform:translateY(-4rem) ; -moz-transform:translateY(-4rem) ; -ms-transform:translateY(-4rem) ; -o-transform:translateY(-4rem) ; }}
+@media (min-width:1280px){.CATEGORIES__SINGLE__BOX__DESC{ padding-left: 2.5rem; padding-right: 2.5rem; letter-spacing: normal; transform:translateY(-1.5rem) ; -webkit-transform:translateY(-1.5rem) ; -moz-transform:translateY(-1.5rem) ; -ms-transform:translateY(-1.5rem) ; -o-transform:translateY(-1.5rem) ; }}
