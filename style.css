@@ -30,6 +30,7 @@
 .TEMPLATES__TEMPLATE__GROUP{display: flex;flex-direction: column;align-items: center; justify-content: center; margin-top: 4rem;margin-bottom: 4rem;}
 .SINGLE__TEMPLATE__1{ display: flex; flex-direction: column; padding: 2.5rem 2rem; column-gap: .25rem;width: 100vw;}
 .SINGLE__TEMPLATE__2{ display: flex; flex-direction: column; padding: 2.5rem 2rem; column-gap: .25rem;width: 100vw; background-color: #dddddf; padding-top: 1rem;padding-bottom: 1rem; }
+
 /** RESPONSIVE **/
 @media (min-width: 768px) { .WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 0; }}
 @media (min-width: 1280px) {.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE {width: 100vw;height: 100vh;position: absolute;bottom: 0vh;left: 7px;}}
@@ -52,3 +53,4 @@
 @media (min-width:1280px){.TEMPLATES__TEMPLATE__GROUP{display: grid;grid-template-columns: repeat(2, minmax(0, 1fr)); place-items: stretch; margin-top: 0; margin-bottom: 0;column-gap: 7rem; }}
 @media (min-width:1024px){.SINGLE__TEMPLATE__1{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));place-items:end; }}
 @media (min-width:1024px){.SINGLE__TEMPLATE__2{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));place-items:end; background-color: transparent; }}
+@media (max-width:640px){.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE{scale: 160%; bottom: 128px;}}
