@@ -24,8 +24,8 @@
 .CATEGORY__SINGLE__BOX__CONTAINER{ width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 0;}
 .CATEGORY__SINGLE__BOX__TITLE{ font-size: 30px; line-height: 2.25rem; font-weight: 700; transform:translateY(-2rem) ; -webkit-transform:translateY(-2rem) ; -moz-transform:translateY(-2rem) ; -ms-transform:translateY(-2rem) ; -o-transform:translateY(-2rem) ; }
 .CATEGORY__SINGLE__BOX__DESC{font-size: 1.25rem; line-height: 2.5rem; text-align: justify; letter-spacing: -0.05rem;}
-
-
+.CATEGORY_OPTIONS__CONTAINER{ display: flex; flex-direction: column; align-items: start; justify-content: center; margin-top: 1rem; margin-bottom: 1rem; width: 100%; margin-top: 1rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
+@media (min-width:640px){}
 
 
 /** RESPONSIVE **/
