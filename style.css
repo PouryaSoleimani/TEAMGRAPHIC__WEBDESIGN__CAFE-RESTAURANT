@@ -28,7 +28,7 @@
 /* ! ALL TEMPLATES SECTION */
 .CAFE__ALL__TEMPLATES__CONTAINER{padding-bottom:4rem;margin-top:5rem;margin-bottom:5rem;}
 .TEMPLATES__TEMPLATE__GROUP{display: flex;flex-direction: column;align-items: center; justify-content: center; margin-top: 4rem;margin-bottom: 4rem;padding-left: 0.5rem;padding-right: 0.5rem;}
-.SINGLE__TEMPLATE__1{ display: flex; flex-direction: column; padding: 2.5rem 0.5rem; column-gap: .25rem; }
+.SINGLE__TEMPLATE__1{ display: flex; flex-direction: column; padding: 2.5rem 0.5rem; column-gap: .25rem; box-shadow: 3px 3px 10px gray;}
 .SINGLE__TEMPLATE__2{ display: flex; flex-direction: column; padding: 2.5rem 0.5rem; column-gap: .25rem;background-color: #d4d4d8; padding-top: 0.5rem;padding-bottom: 0.5rem; }
 
 
