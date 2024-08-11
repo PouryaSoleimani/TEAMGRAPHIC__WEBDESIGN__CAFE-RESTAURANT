@@ -17,7 +17,7 @@
 .PLANS__CATEGORY__SINGLE__BOX{display: flex;flex-direction: column;align-items: center;justify-content: center;transition:all .5s linear ;cursor: pointer;margin: 0.75rem 0;padding: 1.5rem .75rem;-webkit-transition:all .5s linear ;-moz-transition:all .5s linear ;-ms-transition:all .5s linear ;-o-transition:all .5s linear ;}
 .footerNamad img {margin: auto;}
 /*! CATEGORIES SECTION */
-.CATEGORIES__CONTAINER{ width: 100%; height: fit-content; padding-bottom: 4rem; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: white; color: black; padding-left:5% ; padding-right: 5%;}
+.CATEGORIES__CONTAINER{ width: 100%; height: fit-content; padding-bottom: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: white; color: black; padding-left:5% ; padding-right: 5%;}
 .WEB__DESIGN__CAFE__CATEGORY__BOXES__CONTAINER { width: 100%; margin-top: 4%; display: flex; flex-direction: column-reverse; color: black;}
 .CATEGORY__SINGLE__BOX { display: flex;flex-direction: column-reverse;justify-content: start;align-items: center;row-gap:1.5rem ;text-align: center;height: 100%;padding-top: 2.5rem;padding-bottom: 2.5rem;}
 .CATEGORY__SINGLE__BOX__CONTAINER{ width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 0;}
