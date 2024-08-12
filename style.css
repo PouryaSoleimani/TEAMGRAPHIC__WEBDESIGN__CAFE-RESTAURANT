@@ -50,7 +50,7 @@
 @media (min-width:1280px){.CATEGORY__OPTIONS__CONTAINER{padding-right: 2.5rem;padding-top:0.25rem;padding-bottom: 0.25rem;}}
 @media (min-width:1280px){.CATEGORY__SINGLE__ITEM{font-size:20px;line-height:1.75rem;}}
 @media (min-width:1280px){.CAFE__ALL__TEMPLATES__CONTAINER { padding-left: 2.5rem; padding-right: 2.5rem;}}
-@media (min-width:1280px){.TEMPLATES__TEMPLATE__GROUP{display: grid;grid-template-columns: repeat(2, minmax(0, 1fr)); place-items: stretch; margin-top: 0; margin-bottom: 0;column-gap: 7rem; }}
+@media (min-width:1800px){.TEMPLATES__TEMPLATE__GROUP{display: grid;grid-template-columns: repeat(2, minmax(0, 1fr)); place-items: stretch; margin-top: 0; margin-bottom: 0;column-gap: 7rem; }}
 @media (min-width:1024px){.SINGLE__TEMPLATE__1{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));place-items:end; }}
 @media (min-width:1024px){.SINGLE__TEMPLATE__2{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));place-items:end; background-color: transparent; }}
 @media (max-width:640px){.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE{scale: 160%; bottom: 128px;}}
