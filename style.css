@@ -55,6 +55,5 @@
 @media (min-width:1024px){.SINGLE__TEMPLATE__2{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));place-items:end; background-color: transparent; }}
 @media (max-width:640px){.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE{scale: 160%; bottom: 128px;}}
 
-
-
-/* #PLAN__BOX__1 , #PLAN__BOX__2 { transition: all 300ms linear; -webkit-transition: all 300ms linear; -moz-transition: all 300ms linear; -ms-transition: all 300ms linear; -o-transition: all 300ms linear; } */
+.PLANBOX { transition: all 1500ms linear; -webkit-transition: all 1500ms linear; -moz-transition: all 1500ms linear; -ms-transition: all 1500ms linear; -o-transition: all 1500ms linear; }
+#PLAN__BOX__1 , #PLAN__BOX__2 { transition: all 300ms linear; -webkit-transition: all 300ms linear; -moz-transition: all 300ms linear; -ms-transition: all 300ms linear; -o-transition: all 300ms linear; }
