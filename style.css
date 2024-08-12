@@ -58,4 +58,4 @@
 @media (max-width:640px){.WEB__DESIGN__CAFE__HEADER__CONTAINER__IMAGE{scale: 160%; bottom: 128px;}}
 
 .section-main-header{ font-size:20vw; text-shadow: 2px 2px 2px black; white-space: pre-line; }
-.site__label{font-size:40vw; text-shadow: 2px 2px 2px black; white-space: pre-line;}
+.site__label{font-size:40vw; text-shadow: 2px 2px 2px black; white-space: pre-line; width: fit-content;}
