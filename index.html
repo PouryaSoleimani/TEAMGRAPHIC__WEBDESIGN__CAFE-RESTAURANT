@@ -1,4 +1,4 @@
- <!-- ! طراحی سایت کافه و رستوران -->
+ <!-- * طراحی سایت کافه و رستوران -->
 <!-- ~ LOADER -->
 <div id="WEB_DESIGN_LOADER" class="w-screen h-screen flex items-center justify-center absolute top-0 left-0">
     <div class="banter-loader">
@@ -435,9 +435,8 @@
         <!--& CRUE PICS -->
         <div class="container">
             <div class="flex flex-col items-center justify-center px-3 flex-wrap gap-y-1 2xl:gap-y-0 rows" data-aos="fade-up" data-aos-duration="1500">
-                <div id="1st_row" class="flex items-center justify-center gap-1 lg:gap-4 flex-wrap">
-                    <div class="SHAPE" style="background-image: url('../../../upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/1z7Fqnth/Adu4ftal.png');">&nbsp;</div>
-                    <div class="SHAPE">&nbsp;</div>
+                <div id="1st_row" class="flex items-center justify-center gap-0 lg:gap-4 flex-wrap">
+                    <div class="SHAPE my-1 lg:my-2 2xl:my-3" style="background-image: url('../../../upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/1z7Fqnth/Adu4ftal.png');">&nbsp;</div>
                 </div>
                 <div id="2nd_row" class="flex items-center justify-center gap-1 lg:gap-4 flex-wrap">
                     <div class="SHAPE" style="background-image: url('../../../upload/920/files/LTd9nUg0/TvWYXO3m/HnudL5sG/1z7Fqnth/HeOMQ7bN.png');">&nbsp;</div>
@@ -662,7 +661,11 @@
             chapContentDiv.classList.add("p-0")
             pageLabel.classList.add("whitespace-nowrap")
             pageLabel.classList.add("site__label")
-            pageLabel.classList.add("mt-32")
+            pageLabel.style.marginTop = "8rem"
+            if(window.innerWidth<=640){pageLabel.style.fontSize = "32px";}else{pageLabel.style.fontSize = "67px"}
+            if(window.innerWidth<=640){pageLabel.style.lineHeight = "100px";}else{null}
+            pageLabel.style.zIndex = "1"
+            document.body.style.overflowX = "hidden"
             //SCROLL DOWN
             function Scrolldown(){window.scroll(0,180);}
             function Scrolldown2(){window.scroll(0,220);}
