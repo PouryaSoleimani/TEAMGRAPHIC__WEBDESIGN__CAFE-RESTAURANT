@@ -59,3 +59,5 @@
 
 .section-main-header{ font-size:20vw; text-shadow: 2px 2px 2px black; white-space: pre-line; }
 .site__label{font-size:40vw; text-shadow: 2px 2px 2px black; white-space: pre-line; width: fit-content;}
+
+.test{ transform:scaleX() ; -webkit-transform:scaleX() ; -moz-transform:scaleX() ; -ms-transform:scaleX() ; -o-transform:scaleX() ; }
